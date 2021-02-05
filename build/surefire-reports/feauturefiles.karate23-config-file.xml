@@ -1,0 +1,14 @@
+<testsuite failures="1" name="feauturefiles/karate23-config-file.feature" skipped="0" tests="1" time="0.000217">
+  <testcase classname="feauturefiles.karate23-config-file" name="Reading global variaable" time="0.000217">
+    <failure message="karate23-config-file.feature:8 - request body is required for a POST, please use the 'request' keyword">Given url baseUrl ......................................................... passed
+And path listUsers ........................................................ passed
+When method post .......................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: karate23-config-file.feature:8 - request body is required for a POST, please use the 'request' keyword&#13;
+	at ✽.When method post (karate23-config-file.feature:8)&#13;
+
+Then status 200 ........................................................... skipped
+* print response .......................................................... skipped</failure>
+  </testcase>
+</testsuite>

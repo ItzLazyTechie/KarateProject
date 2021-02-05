@@ -1,0 +1,322 @@
+16:02:43.601 From karate-config file 
+16:02:43.695 [print] c =  30.0
+16:02:43.695 End of the  test 
+16:02:43.695 after scenario inside config 
+16:02:43.726 From karate-config file 
+16:02:43.788 after scenario inside config 
+16:02:43.788 From karate-config file 
+16:02:43.835 after scenario inside config 
+16:02:43.835 From karate-config file 
+16:02:43.883 after scenario inside config 
+16:02:43.914 From karate-config file 
+16:02:44.164 request:
+1 > POST http://www.dneonline.com/calculator.asmx
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 315
+1 > Content-Type: text/xml; charset=UTF-8
+1 > Host: www.dneonline.com
+1 > SOAPAction: http://tempuri.org/Add
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_251)
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <soap:Body>
+      <Add xmlns="http://tempuri.org/">
+<intA>100</intA>
+<intB>200</intB>
+      </Add>
+    </soap:Body>
+  </soap:Envelope>
+
+16:02:44.788 response time in milliseconds: 622.54
+1 < 200
+1 < Cache-Control: private, max-age=0
+1 < Content-Type: text/xml; charset=utf-8
+1 < Date: Fri, 05 Feb 2021 10:32:45 GMT
+1 < Server: Microsoft-IIS/8.0
+1 < Vary: Accept-Encoding
+1 < X-AspNet-Version: 2.0.50727
+1 < X-Powered-By: ASP.NET
+1 < X-Powered-By-Plesk: PleskWin
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><AddResponse xmlns="http://tempuri.org/"><AddResult>300</AddResult></AddResponse></soap:Body></soap:Envelope>
+
+16:02:44.804 [print] {
+  "Cache-Control": [
+    "private, max-age=0"
+  ],
+  "Content-Type": [
+    "text/xml; charset=utf-8"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "Server": [
+    "Microsoft-IIS/8.0"
+  ],
+  "X-AspNet-Version": [
+    "2.0.50727"
+  ],
+  "X-Powered-By": [
+    "ASP.NET"
+  ],
+  "X-Powered-By-Plesk": [
+    "PleskWin"
+  ],
+  "Date": [
+    "Fri, 05 Feb 2021 10:32:45 GMT"
+  ]
+}
+
+16:02:44.804 [print] [
+  "Microsoft-IIS/8.0"
+]
+
+16:02:44.804 [print] Microsoft-IIS/8.0
+16:02:44.804 [print] xml
+16:02:44.804 [print] <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <soap:Body>
+    <AddResponse xmlns="http://tempuri.org/">
+      <AddResult>300</AddResult>
+    </AddResponse>
+  </soap:Body>
+</soap:Envelope>
+
+16:02:44.820 [print] 623
+16:02:44.820 [print] 200
+16:02:44.820 after scenario inside config 
+16:02:44.866 From karate-config file 
+16:02:44.898 request:
+1 > POST http://www.dneonline.com/calculator.asmx
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 315
+1 > Content-Type: text/xml; charset=UTF-8
+1 > Host: www.dneonline.com
+1 > SOAPAction: http://tempuri.org/Add
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_251)
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <soap:Body>
+      <Add xmlns="http://tempuri.org/">
+<intA>100</intA>
+<intB>200</intB>
+      </Add>
+    </soap:Body>
+  </soap:Envelope>
+
+16:02:45.476 response time in milliseconds: 582.82
+1 < 200
+1 < Cache-Control: private, max-age=0
+1 < Content-Type: text/xml; charset=utf-8
+1 < Date: Fri, 05 Feb 2021 10:32:45 GMT
+1 < Server: Microsoft-IIS/8.0
+1 < Vary: Accept-Encoding
+1 < X-AspNet-Version: 2.0.50727
+1 < X-Powered-By: ASP.NET
+1 < X-Powered-By-Plesk: PleskWin
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><AddResponse xmlns="http://tempuri.org/"><AddResult>300</AddResult></AddResponse></soap:Body></soap:Envelope>
+
+16:02:45.476 [print] {
+  "Cache-Control": [
+    "private, max-age=0"
+  ],
+  "Content-Type": [
+    "text/xml; charset=utf-8"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "Server": [
+    "Microsoft-IIS/8.0"
+  ],
+  "X-AspNet-Version": [
+    "2.0.50727"
+  ],
+  "X-Powered-By": [
+    "ASP.NET"
+  ],
+  "X-Powered-By-Plesk": [
+    "PleskWin"
+  ],
+  "Date": [
+    "Fri, 05 Feb 2021 10:32:45 GMT"
+  ]
+}
+
+16:02:45.476 [print] [
+  "Microsoft-IIS/8.0"
+]
+
+16:02:45.476 [print] Microsoft-IIS/8.0
+16:02:45.476 [print] xml
+16:02:45.492 [print] <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <soap:Body>
+    <AddResponse xmlns="http://tempuri.org/">
+      <AddResult>300</AddResult>
+    </AddResponse>
+  </soap:Body>
+</soap:Envelope>
+
+16:02:45.492 [print] 583
+16:02:45.492 [print] 200
+16:02:45.492 after scenario inside config 
+16:02:45.492 From karate-config file 
+16:02:45.554 [print] Karate
+16:02:45.554 [print] Karate
+16:02:45.554 after scenario inside config 
+16:02:45.570 From karate-config file 
+16:02:45.570 request:
+1 > POST https://www.w3schools.com/xml/tempconvert.asmx/CelsiusToFahrenheit
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 10
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: www.w3schools.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_251)
+Celsius=40
+
+16:02:45.866 response time in milliseconds: 289.83
+1 < 200
+1 < Cache-Control: private, max-age=0,public
+1 < Content-Type: text/xml; charset=utf-8
+1 < Date: Fri, 05 Feb 2021 10:24:35 GMT
+1 < Server: Microsoft-IIS/7.5
+1 < Vary: Accept-Encoding
+1 < X-AspNet-Version: 4.0.30319
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Powered-By: ASP.NET
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="https://www.w3schools.com/xml/">104</string>
+
+16:02:45.866 [print] {
+  "Cache-Control": [
+    "private, max-age=0,public"
+  ],
+  "Content-Type": [
+    "text/xml; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 05 Feb 2021 10:24:35 GMT"
+  ],
+  "Server": [
+    "Microsoft-IIS/7.5"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-AspNet-Version": [
+    "4.0.30319"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Powered-By": [
+    "ASP.NET"
+  ]
+}
+
+16:02:45.866 [print] xml
+16:02:45.866 [print] 290
+16:02:45.866 after scenario inside config 
+16:02:45.866 From karate-config file 
+16:02:45.866 request:
+1 > GET https://reqres.in/api/users?page=2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_251)
+
+16:02:46.163 response time in milliseconds: 296.97
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 3461
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 61cbf82d3ed31a32-SIN
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 05 Feb 2021 10:32:46 GMT
+1 < Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"max_age":604800,"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=wAb92Jg%2FQcsKlrlWdfcxAhu%2FplXwGGTOsQSHp6yb5cZnOT%2Bz1%2BTWngMkH7SU7M4ew7LxUR%2FVUYa0o1YxCdKsOkCG%2BVi3NteypK0%3D"}]}
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=dce1927491bbb21ac37a3afedca5f265e1612521166; expires=Sun, 07-Mar-21 10:32:46 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 081359704800001a3235a1e000000001
+{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+16:02:46.163 [print] {
+  "per_page": 6,
+  "total": 12,
+  "data": [
+    {
+      "last_name": "Lawson",
+      "id": 7,
+      "avatar": "https://reqres.in/img/faces/7-image.jpg",
+      "first_name": "Michael",
+      "email": "michael.lawson@reqres.in"
+    },
+    {
+      "last_name": "Ferguson",
+      "id": 8,
+      "avatar": "https://reqres.in/img/faces/8-image.jpg",
+      "first_name": "Lindsay",
+      "email": "lindsay.ferguson@reqres.in"
+    },
+    {
+      "last_name": "Funke",
+      "id": 9,
+      "avatar": "https://reqres.in/img/faces/9-image.jpg",
+      "first_name": "Tobias",
+      "email": "tobias.funke@reqres.in"
+    },
+    {
+      "last_name": "Fields",
+      "id": 10,
+      "avatar": "https://reqres.in/img/faces/10-image.jpg",
+      "first_name": "Byron",
+      "email": "byron.fields@reqres.in"
+    },
+    {
+      "last_name": "Edwards",
+      "id": 11,
+      "avatar": "https://reqres.in/img/faces/11-image.jpg",
+      "first_name": "George",
+      "email": "george.edwards@reqres.in"
+    },
+    {
+      "last_name": "Howell",
+      "id": 12,
+      "avatar": "https://reqres.in/img/faces/12-image.jpg",
+      "first_name": "Rachel",
+      "email": "rachel.howell@reqres.in"
+    }
+  ],
+  "page": 2,
+  "total_pages": 2,
+  "support": {
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!",
+    "url": "https://reqres.in/#support-heading"
+  }
+}
+
+16:02:46.195 after scenario inside config 
+16:02:46.226 From karate-config file 
+16:02:46.226 [print] Basic YWRtaW46YWRtaW4=
+16:02:46.288 request:
+1 > POST http://192.168.1.92:8161/api/message?destination=queue%3A%2F%2Forders.input
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Basic YWRtaW46YWRtaW4=
+1 > Connection: Keep-Alive
+1 > Content-Length: 16
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Host: 192.168.1.92:8161
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_251)
+Hi, Karate - JMS
+
+16:02:51.289 org.apache.http.conn.ConnectTimeoutException: Connect to 192.168.1.92:8161 [/192.168.1.92] failed: connect timed out, http call failed after 5001 milliseconds for URL: http://192.168.1.92:8161/api/message?destination=queue%3A%2F%2Forders.input
+16:02:51.289 http request failed: 
+org.apache.http.conn.ConnectTimeoutException: Connect to 192.168.1.92:8161 [/192.168.1.92] failed: connect timed out
+16:02:51.289 after scenario inside config 

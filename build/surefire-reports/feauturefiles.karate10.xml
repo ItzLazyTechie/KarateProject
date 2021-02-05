@@ -1,0 +1,46 @@
+<testsuite failures="2" name="feauturefiles/karate10.feature" skipped="0" tests="2" time="10.037186">
+  <testcase classname="feauturefiles.karate10" name="REST API Test Case 1" time="5.023956">
+    <failure message="karate10.feature:7 - &#10;java.net.SocketTimeoutException: Read timed out">Given url "http://dummy.restapiexample.com/api/v1/employees" .............. passed
+When method get ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: karate10.feature:7 - 
+java.net.SocketTimeoutException: Read timed out&#13;
+	at ✽.When method get (karate10.feature:7)&#13;
+
+Then status 200 ........................................................... skipped
+* match responseType == "json" ............................................ skipped
+* match response.status == "success" ...................................... skipped
+* match response.data[0].employee_name == "Tiger Nixon" ................... skipped
+* match response.status == "#string" ...................................... skipped</failure>
+  </testcase>
+  <testcase classname="feauturefiles.karate10" name="REST API Test Case 2" time="5.013229">
+    <failure message="karate10.feature:18 - &#10;java.net.SocketTimeoutException: Read timed out">Given url "http://dummy.restapiexample.com/api/v1/employees" .............. passed
+When method get ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: karate10.feature:7 - 
+java.net.SocketTimeoutException: Read timed out&#13;
+	at ✽.When method get (karate10.feature:7)&#13;
+
+Then status 200 ........................................................... skipped
+* match responseType == "json" ............................................ skipped
+* match response.status == "success" ...................................... skipped
+* match response.data[0].employee_name == "Tiger Nixon" ................... skipped
+* match response.status == "#string" ...................................... skipped
+Given url "http://dummy.restapiexample.com" ............................... passed
+And path "/api/v1/employees" .............................................. passed
+When method get ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: karate10.feature:18 - 
+java.net.SocketTimeoutException: Read timed out&#13;
+	at ✽.When method get (karate10.feature:18)&#13;
+
+Then status 200 ........................................................... skipped
+* match responseType == "json" ............................................ skipped
+* match response.status == "success" ...................................... skipped
+* match response.data[0].employee_name == "Tiger Nixon" ................... skipped
+* match response.status == "#string" ...................................... skipped</failure>
+  </testcase>
+</testsuite>

@@ -1,0 +1,26 @@
+<testsuite failures="0" name="feauturefiles/karate16.feature" skipped="0" tests="2" time="0.249893">
+  <testcase classname="feauturefiles.karate16" name="Writing to a file" time="0.244137">
+    <system-out>* def temp = Java.type('misc.Utils') ...................................... passed
+Given url "https://reqres.in/api/users?page=2" ............................ passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+* def res = get response .................................................. passed
+* print res ............................................................... passed
+* temp.writeToFile("result.json", res); ................................... passed
+* temp.writeToFile("result.txt", res); .................................... passed</system-out>
+  </testcase>
+  <testcase classname="feauturefiles.karate16" name="Reading result json file" time="0.005757">
+    <system-out>* def temp = Java.type('misc.Utils') ...................................... passed
+Given url "https://reqres.in/api/users?page=2" ............................ passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+* def res = get response .................................................. passed
+* print res ............................................................... passed
+* temp.writeToFile("result.json", res); ................................... passed
+* temp.writeToFile("result.txt", res); .................................... passed
+* def jsonData = read("classpath:result.json") ............................ passed
+* def textData = read("classpath:result.txt") ............................. passed
+* print jsonData .......................................................... passed
+* print textData .......................................................... passed</system-out>
+  </testcase>
+</testsuite>
