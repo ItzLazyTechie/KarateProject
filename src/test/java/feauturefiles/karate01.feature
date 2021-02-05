@@ -24,3 +24,4 @@ Feature: Karate Test Suite 1
     * assert c == 30
     * print "c = ", c
     * karate.log("End of the  test")
+    #Added a new change in karate-01 file to test the git-jenkins integration
